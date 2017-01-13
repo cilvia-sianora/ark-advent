@@ -1,4 +1,5 @@
 package Jobeet::Models;
+use v5.18.2;
 use strict;
 use warnings;
 use Ark::Models '-base';

@@ -2880,3 +2880,91 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Fri Jan 13 11:59:12 2017: C<Module> L<Package::DeprecationManager|Package::DeprecationManager>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/cilvia-putri/Documents/ark-advent/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.17>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jan 13 11:59:12 2017: C<Module> L<DateTime::Format::Strptime|DateTime::Format::Strptime>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/cilvia-putri/Documents/ark-advent/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.70>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jan 13 11:59:13 2017: C<Module> L<DateTime::Format::Builder|DateTime::Format::Builder>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/cilvia-putri/Documents/ark-advent/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.81>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Fri Jan 13 11:59:13 2017: C<Module> L<DateTime::Format::SQLite|DateTime::Format::SQLite>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/cilvia-putri/Documents/ark-advent/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.11>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
