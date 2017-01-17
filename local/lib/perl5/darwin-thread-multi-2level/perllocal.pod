@@ -2968,3 +2968,69 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Mon Jan 16 14:09:52 2017: C<Module> L<Data::Page::Navigation|Data::Page::Navigation>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/cilvia-putri/Documents/ark-advent/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.06>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Jan 17 15:37:56 2017: C<Module> L<IO::Stringy|IO::Stringy>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/cilvia-putri/Documents/ark-advent/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.111>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Jan 17 17:38:23 2017: C<Module> L<Cache::FastMmap|Cache::FastMmap>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/cilvia-putri/Documents/ark-advent/Jobeet/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.44>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

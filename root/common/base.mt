@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Jobeet - Your best job board</title>
+		<title><?= block title => sub { 'Jobeet - Your best job board' } ?></title>
 	    <link rel="shortcut icon" href="/favicon.ico" />
 	    <? block javascripts => '' ?>
 	    <? block stylesheets => '' ?>
@@ -10,7 +10,7 @@
 		<div id="container">
 	      <div id="header">
 	        <div class="content">
-	          <h1><a href="<?= $c->uri_for('/') ?>">
+	          <h1><a href="<?= $c->uri_for('/job/') ?>">
 	            <img src="/images/logo.jpg" alt="Jobeet Job Board" />
 	          </a></h1>
 
@@ -18,7 +18,7 @@
 	            <div class="post">
 	              <h2>Ask for people</h2>
 	              <div>
-	                <a href="<?= $c->uri_for('/job/new') ?>">Post a Job</a>
+	                <a href="<?= $c->uri_for('/job/create') ?>">Post a Job</a>
 	              </div>
 	            </div>
 

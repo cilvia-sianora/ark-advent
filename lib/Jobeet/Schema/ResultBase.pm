@@ -37,7 +37,7 @@ sub update {
 	my $self = shift;
 
 	if ($self->can('updated_at'))	{
-		$self-> updated_at( Jobeet::Schema->now );
+		$self->updated_at( Jobeet::Schema->now );
 	}
 
 	$self->next::method(@_);

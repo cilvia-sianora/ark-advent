@@ -23,7 +23,8 @@ autoloader qr/^Schema::/ => sub {
 	}
 };
 
-# for my $table (qw/Job Category CategoryAffiliate Affiliate/) {
+#for my $table (qw/Job Category CategoryAffiliate Affiliate/) {
+# for my $table (qw/Category/) {
 # 	register "Schema::$table" => sub {
 # 		my $self = shift;
 # 		$self->get('Schema')->resultset($table);

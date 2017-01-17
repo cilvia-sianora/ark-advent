@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.28
-Line-Count:   1571
-Last-Updated: Fri Jan 13 12:31:19 2017
+Line-Count:   1587
+Last-Updated: Tue Jan 17 17:38:19 2017
 
 Algorithm::C3                      0.10  H/HA/HAARG/Algorithm-C3-0.10.tar.gz
 Algorithm::Diff                  1.1903  T/TY/TYEMQ/Algorithm-Diff-1.1903.tar.gz
@@ -60,6 +60,10 @@ bareword::filehandles             0.004  I/IL/ILMARI/bareword-filehandles-0.004.
 Bundle::DBI                    12.008696  T/TI/TIMB/DBI-1.636.tar.gz
 Capture::Tiny                      0.44  D/DA/DAGOLDEN/Capture-Tiny-0.44.tar.gz
 Carp::Clan                         6.06  K/KE/KENTNL/Carp-Clan-6.06.tar.gz
+CGI::Simple                       1.115  S/SZ/SZABGAB/CGI-Simple-1.115.tar.gz
+CGI::Simple::Cookie               1.114  S/SZ/SZABGAB/CGI-Simple-1.115.tar.gz
+CGI::Simple::Standard             1.114  S/SZ/SZABGAB/CGI-Simple-1.115.tar.gz
+CGI::Simple::Util                 1.114  S/SZ/SZABGAB/CGI-Simple-1.115.tar.gz
 Class::Accessor                    0.34  K/KA/KASEI/Class-Accessor-0.34.tar.gz
 Class::Accessor::Chained           0.01  R/RC/RCLAMP/Class-Accessor-Chained-0.01.tar.gz
 Class::Accessor::Chained::Fast    undef  R/RC/RCLAMP/Class-Accessor-Chained-0.01.tar.gz
@@ -105,6 +109,7 @@ Data::Dumper::Concise             2.022  F/FR/FREW/Data-Dumper-Concise-2.022.tar
 Data::Dumper::Concise::Sugar      undef  F/FR/FREW/Data-Dumper-Concise-2.022.tar.gz
 Data::OptList                     0.110  R/RJ/RJBS/Data-OptList-0.110.tar.gz
 Data::Page                         2.02  L/LB/LBROCARD/Data-Page-2.02.tar.gz
+Data::Page::Navigation             0.06  K/KA/KAZEBURO/Data-Page-Navigation-0.06.tar.gz
 Data::Section::Simple              0.07  M/MI/MIYAGAWA/Data-Section-Simple-0.07.tar.gz
 Data::Util                         0.65  S/SY/SYOHEX/Data-Util-0.65.tar.gz
 Data::Util::Error                 undef  S/SY/SYOHEX/Data-Util-0.65.tar.gz
@@ -845,11 +850,22 @@ HTTP::Status                       6.11  E/ET/ETHER/HTTP-Message-6.11.tar.gz
 HTTP::Tiny                        0.070  D/DA/DAGOLDEN/HTTP-Tiny-0.070.tar.gz
 Import::Into                   1.002005  H/HA/HAARG/Import-Into-1.002005.tar.gz
 indirect                           0.37  V/VP/VPIT/indirect-0.37.tar.gz
+IO::AtomicFile                    2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
+IO::Clever                         1.01  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
 IO::HTML                          1.001  C/CJ/CJM/IO-HTML-1.001.tar.gz
+IO::InnerFile                     2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
+IO::Lines                         2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
 IO::Pty                            1.12  T/TO/TODDR/IO-Tty-1.12.tar.gz
+IO::Scalar                        2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
+IO::ScalarArray                   2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
 IO::Socket::IP                     0.38  P/PE/PEVANS/IO-Socket-IP-0.38.tar.gz
+IO::Stringy                       2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
 IO::Tty                            1.12  T/TO/TODDR/IO-Tty-1.12.tar.gz
 IO::Tty::Constant                 undef  T/TO/TODDR/IO-Tty-1.12.tar.gz
+IO::Wrap                          2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
+IO::WrapTie                       2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
+IO::WrapTie::Master               2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
+IO::WrapTie::Slave                2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
 IPC::Run                           0.94  T/TO/TODDR/IPC-Run-0.94.tar.gz
 IPC::Run::Debug                    0.90  T/TO/TODDR/IPC-Run-0.94.tar.gz
 IPC::Run::IO                       0.90  T/TO/TODDR/IPC-Run-0.94.tar.gz

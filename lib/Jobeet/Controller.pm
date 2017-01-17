@@ -24,3 +24,5 @@ sub end :Private {
 		$c->forward( $c->view('MT') );
 	}
 }
+
+1;
