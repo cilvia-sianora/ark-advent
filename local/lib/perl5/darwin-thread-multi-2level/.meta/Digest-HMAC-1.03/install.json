@@ -1,1 +1,0 @@
-{"target":"Digest::HMAC","version":"1.03","pathname":"G/GA/GAAS/Digest-HMAC-1.03.tar.gz","dist":"Digest-HMAC-1.03","name":"Digest::HMAC","provides":{"Digest::HMAC":{"version":"1.03","file":"lib/Digest/HMAC.pm"},"Digest::HMAC_SHA1":{"version":"1.03","file":"lib/Digest/HMAC_SHA1.pm"},"Digest::HMAC_MD5":{"file":"lib/Digest/HMAC_MD5.pm","version":"1.01"}}}

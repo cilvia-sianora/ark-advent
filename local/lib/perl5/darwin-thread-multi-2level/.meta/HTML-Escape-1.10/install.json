@@ -1,1 +1,0 @@
-{"target":"HTML::Escape","pathname":"T/TO/TOKUHIROM/HTML-Escape-1.10.tar.gz","version":"1.10","provides":{"HTML::Escape":{"version":"1.10","file":"lib/HTML/Escape.pm"},"HTML::Escape::PurePerl":{"file":"lib/HTML/Escape/PurePerl.pm"}},"name":"HTML::Escape","dist":"HTML-Escape-1.10"}

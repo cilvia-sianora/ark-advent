@@ -1,1 +1,0 @@
-{"target":"DateTime::Format::SQLite","name":"DateTime::Format::SQLite","pathname":"C/CF/CFAERBER/DateTime-Format-SQLite-0.11.tar.gz","provides":{"DateTime::Format::SQLite":{"version":"0.11","file":"lib/DateTime/Format/SQLite.pm"}},"version":"0.11","dist":"DateTime-Format-SQLite-0.11"}

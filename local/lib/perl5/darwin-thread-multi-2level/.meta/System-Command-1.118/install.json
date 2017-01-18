@@ -1,1 +1,0 @@
-{"version":"1.118","dist":"System-Command-1.118","target":"System::Command","provides":{"System::Command::Reaper":{"version":"1.118","file":"lib/System/Command/Reaper.pm"},"System::Command":{"file":"lib/System/Command.pm","version":"1.118"}},"pathname":"B/BO/BOOK/System-Command-1.118.tar.gz","name":"System::Command"}
