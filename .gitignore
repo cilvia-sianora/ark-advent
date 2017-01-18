@@ -1,0 +1,12 @@
+Makefile
+.DS_Store
+_build
+Build
+.perl-version
+.prove
+.proverc
+*.pid
+.svn/
+/tmp/
+local
+#*

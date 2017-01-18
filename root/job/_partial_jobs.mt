@@ -8,7 +8,7 @@
 		</td>
 		<td class="position">
 			<a href="<?= $c->uri_for('/job', $job->token) ?>">
-				<?= $job->category_id ?><?= $job->position ?>
+				<?= $job->position ?>
 			</a>
 		</td>
 		<td class="company">

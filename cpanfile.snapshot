@@ -771,6 +771,14 @@ DISTRIBUTIONS
       constant 0
       strict 0
       warnings 0
+  DateTime-Format-W3CDTF-0.06
+    pathname: G/GW/GWILLIAMS/DateTime-Format-W3CDTF-0.06.tar.gz
+    provides:
+      DateTime::Format::W3CDTF 0.06
+    requirements:
+      DateTime 0
+      ExtUtils::MakeMaker 6.42
+      Test::More 0.61
   DateTime-Locale-1.11
     pathname: D/DR/DROLSKY/DateTime-Locale-1.11.tar.gz
     provides:
@@ -1796,6 +1804,17 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
+  JSON-Any-1.39
+    pathname: E/ET/ETHER/JSON-Any-1.39.tar.gz
+    provides:
+      JSON::Any 1.39
+    requirements:
+      Carp 0
+      ExtUtils::MakeMaker 0
+      constant 0
+      perl 5.008
+      strict 0
+      warnings 0
   JSON-MaybeXS-1.003008
     pathname: E/ET/ETHER/JSON-MaybeXS-1.003008.tar.gz
     provides:

@@ -6,7 +6,7 @@ use Jobeet::Test;
 use Jobeet::Models;
 
 my $datafile = models('home')->subdir(qw/sql fixtures/)->file('default.pl');
-do $datafile or die $!;
+do $datafile or die "no $datafile:", $!;
 
 {
 	my $c = ctx_get('/category/foo');

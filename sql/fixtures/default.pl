@@ -65,45 +65,72 @@ $design_category->add_to_jobs({
 # 	expires_at	=> '2017-01-31',
 # });
 
-{
-	my $cat_prog = $cat_rs->find({ name => 'Programming' });
-	my $job = $job_rs->create({
-		type			=> 'full-time',
-		category_id		=> $cat_prog->id,
-		company			=> 'Sensio',
-		position		=> 'Web Dev',
-		location		=> 'Tokyo, Japan',
-		description		=> 'waai waai waai',
-		how_to_apply	=> 'Send your resume to lorem [at] waai.com',
-		is_public		=> 1,
-		is_activated	=> 1,
-		token			=> 'job_expired',
-		email			=> 'example@waai.com',
-	});
+# {
+# 	my $cat_prog = $cat_rs->find({ name => 'Programming' });
+# 	my $job = $job_rs->create({
+# 		type			=> 'full-time',
+# 		category_id		=> $cat_prog->id,
+# 		company			=> 'Sensio',
+# 		position		=> 'Web Dev',
+# 		location		=> 'Tokyo, Japan',
+# 		description		=> 'waai waai waai',
+# 		how_to_apply	=> 'Send your resume to lorem [at] waai.com',
+# 		is_public		=> 1,
+# 		is_activated	=> 1,
+# 		token			=> 'job_expired',
+# 		email			=> 'example@waai.com',
+# 	});
 
-	$job->update({
-		created_at	=> '2017-01-01',
-		expires_at	=> '2017-01-31',
+# 	$job->update({
+# 		created_at	=> '2017-01-01',
+# 		expires_at	=> '2017-01-31',
+# 	});
+# }
+
+# {
+# 	my $cat_prog = $cat_rs->find({ name => 'Programming' });
+# 	for my $i (100 .. 130) {
+# 	    my $job = $job_rs->create({
+# 	    	type 		=> 'full-time',
+# 	        category_id  => $cat_prog->id,
+# 	        company      => "Company $i",
+# 	        position     => 'Web Developer',
+# 	        location     => 'Paris, France',
+# 	        description  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+# 	        how_to_apply => "Send your resume to lorem.ipsum [at] company_${i}.sit",
+# 	        is_public    => 1,
+# 	        is_activated => 1,
+# 	        token        => "job_$i",
+# 	        email        => 'job@example.com',
+# 	    });
+# 	}
+# }
+
+# Affiliate
+
+{
+	my $affiliate = models('Schema::Affiliate')->create({
+		url	=> 'http:://www.sensio.com/',
+		email => 'fabien@example.com',
+		is_active => 1,
+	});
+	$affiliate->add_to_category_affiliate({
+		category_id => models('Schema::Category')->find({ name => 'Programming' })->id,
 	});
 }
 
 {
-	my $cat_prog = $cat_rs->find({ name => 'Programming' });
-	for my $i (100 .. 130) {
-	    my $job = $job_rs->create({
-	    	type 		=> 'full-time',
-	        category_id  => $cat_prog->id,
-	        company      => "Company $i",
-	        position     => 'Web Developer',
-	        location     => 'Paris, France',
-	        description  => 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-	        how_to_apply => "Send your resume to lorem.ipsum [at] company_${i}.sit",
-	        is_public    => 1,
-	        is_activated => 1,
-	        token        => "job_$i",
-	        email        => 'job@example.com',
-	    });
-	}
+	my $affiliate = models('Schema::Affiliate')->create({
+		url	=> 'http://www.symfony.org/',
+		email => 'fabien2@example.com',
+		is_active => 1,
+	});
+	$affiliate->add_to_category_affiliate({
+		category_id => models('Schema::Category')->find({ name => 'Design' })->id,
+	});
+	$affiliate->add_to_category_affiliate({
+		category_id => models('Schema::Category')->find({ name => 'Programming' })->id,
+	});
 }
 
 1;

@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.28
-Line-Count:   1587
-Last-Updated: Tue Jan 17 17:38:19 2017
+Line-Count:   1590
+Last-Updated: Wed Jan 18 12:06:15 2017
 
 Algorithm::C3                      0.10  H/HA/HAARG/Algorithm-C3-0.10.tar.gz
 Algorithm::Diff                  1.1903  T/TY/TYEMQ/Algorithm-Diff-1.1903.tar.gz
@@ -58,6 +58,8 @@ B::Hooks::OP::Check                0.19  Z/ZE/ZEFRAM/B-Hooks-OP-Check-0.19.tar.g
 B::Hooks::OP::Check::Install::Files undef  Z/ZE/ZEFRAM/B-Hooks-OP-Check-0.19.tar.gz
 bareword::filehandles             0.004  I/IL/ILMARI/bareword-filehandles-0.004.tar.gz
 Bundle::DBI                    12.008696  T/TI/TIMB/DBI-1.636.tar.gz
+Cache::FastMmap                    1.44  R/RO/ROBM/Cache-FastMmap-1.44.tar.gz
+Cache::FastMmap::OnLeave           1.44  R/RO/ROBM/Cache-FastMmap-1.44.tar.gz
 Capture::Tiny                      0.44  D/DA/DAGOLDEN/Capture-Tiny-0.44.tar.gz
 Carp::Clan                         6.06  K/KE/KENTNL/Carp-Clan-6.06.tar.gz
 CGI::Simple                       1.115  S/SZ/SZABGAB/CGI-Simple-1.115.tar.gz
@@ -165,6 +167,7 @@ DateTime::Format::Fall            undef  D/DR/DROLSKY/DateTime-Format-Builder-0.
 DateTime::Format::Simple          undef  D/DR/DROLSKY/DateTime-Format-Builder-0.81.tar.gz
 DateTime::Format::SQLite           0.11  C/CF/CFAERBER/DateTime-Format-SQLite-0.11.tar.gz
 DateTime::Format::Strptime         1.70  D/DR/DROLSKY/DateTime-Format-Strptime-1.70.tar.gz
+DateTime::Format::W3CDTF           0.06  G/GW/GWILLIAMS/DateTime-Format-W3CDTF-0.06.tar.gz
 DateTime::Helpers                  1.42  D/DR/DROLSKY/DateTime-1.42.tar.gz
 DateTime::Infinite                 1.42  D/DR/DROLSKY/DateTime-1.42.tar.gz
 DateTime::Infinite::Future         1.42  D/DR/DROLSKY/DateTime-1.42.tar.gz

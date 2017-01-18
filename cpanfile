@@ -15,3 +15,5 @@ requires 'Digest::SHA1';
 requires 'Data::UUID';
 requires 'CGI::Simple';
 requires 'Cache::FastMmap';
+requires 'DateTime::Format::W3CDTF';
+requires 'JSON::Any';

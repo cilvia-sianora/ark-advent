@@ -13,7 +13,7 @@
 	<div class="feed">
 		<a href="">Feed</a>
 	</div>
-	<h1><?= $category->id ?><?= $category->name ?></h1>
+	<h1><?= $category->name ?></h1>
 </div>
 
 <?= include('job/_partial_jobs', $jobs->all); ?>
